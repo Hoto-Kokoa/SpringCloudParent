@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63c79607-d7cb-4c20-b6c9-1849b998c55b" name="Default Changelist" comment="test2">
       <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDBC/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -88,8 +89,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="428" />
-    <option name="y" value="222" />
+    <option name="x" value="362" />
+    <option name="y" value="156" />
     <option name="width" value="1400" />
     <option name="height" value="781" />
   </component>
@@ -99,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,6 +149,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,6 +168,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.52342856" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -349,6 +351,7 @@
       <workItem from="1565855502767" duration="946000" />
       <workItem from="1565857808880" duration="82000" />
       <workItem from="1565857904340" duration="171000" />
+      <workItem from="1565858374038" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565855584339</created>
@@ -389,7 +392,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8761000" />
+    <option name="totallyTimeSpent" value="9549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,10 +404,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="222" width="1400" height="781" extended-state="0" />
+    <frame x="362" y="156" width="1400" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,7 +424,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925372" weight="0.32921174" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074625" side_tool="true" visible="true" weight="0.32921174" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50074625" side_tool="true" visible="true" weight="0.32921174" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -455,13 +458,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../a1/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/servlet/DemoServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/servlet/DemoServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -484,13 +485,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mytest/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
