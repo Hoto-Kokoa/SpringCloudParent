@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80d6de8-9e60-42c2-ab46-ce79daa0a865" name="Default Changelist" comment="" />
+    <list default="true" id="f80d6de8-9e60-42c2-ab46-ce79daa0a865" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ValidCode/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,17 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyJDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJDBC" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -211,7 +203,7 @@
       <workItem from="1565053859502" duration="44000" />
       <workItem from="1565056639709" duration="1244000" />
       <workItem from="1565078397369" duration="91000" />
-      <workItem from="1565857470698" duration="700000" />
+      <workItem from="1565857470698" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565857710788</created>
@@ -220,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565857710788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test2">
+      <created>1565858334092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565858334092</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -256,10 +255,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22183000" />
+    <option name="totallyTimeSpent" value="22695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="302" y="98" width="1400" height="773" extended-state="1" />
+    <frame x="499" y="175" width="1400" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49295774" visible="true" weight="0.27985075" />
       <window_info id="Structure" order="1" sideWeight="0.5070422" side_tool="true" visible="true" weight="0.27985075" />
@@ -297,7 +297,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -356,7 +357,7 @@
     <entry file="file://$PROJECT_DIR$/src/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
