@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80d6de8-9e60-42c2-ab46-ce79daa0a865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyJDBC/META-INF/MyJDBC.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyJDBC/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyJDBC/connection.class" afterDir="false" />
-    </list>
+    <list default="true" id="f80d6de8-9e60-42c2-ab46-ce79daa0a865" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="456">
+              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +71,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="302" />
-    <option name="y" value="98" />
+    <option name="x" value="499" />
+    <option name="y" value="175" />
     <option name="width" value="1400" />
     <option name="height" value="773" />
   </component>
@@ -216,7 +211,7 @@
       <workItem from="1565053859502" duration="44000" />
       <workItem from="1565056639709" duration="1244000" />
       <workItem from="1565078397369" duration="91000" />
-      <workItem from="1565857470698" duration="268000" />
+      <workItem from="1565857470698" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565857710788</created>
@@ -261,10 +256,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21751000" />
+    <option name="totallyTimeSpent" value="22183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="164" width="1400" height="773" extended-state="1" />
+    <frame x="302" y="98" width="1400" height="773" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49295774" visible="true" weight="0.27985075" />
       <window_info id="Structure" order="1" sideWeight="0.5070422" side_tool="true" visible="true" weight="0.27985075" />
@@ -360,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="456">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
