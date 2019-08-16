@@ -14,7 +14,10 @@
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <bean id="mapperscanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.test.mapper"/>
+    </bean>
 </beans>

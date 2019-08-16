@@ -24,7 +24,7 @@ public class TestMain {
     private InputStream resourceAsStream;
     private SqlSession sqlSession;
 
-    @Before
+
     public void init() throws IOException {
         resourceAsStream = Resources.getResourceAsStream("mybatisConfig.xml");
         SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
@@ -33,7 +33,7 @@ public class TestMain {
         mapper = sqlSession.getMapper(IStudentMapper.class);
     }
 
-    @After
+
     public void destroy() throws IOException {
         sqlSession.close();
         resourceAsStream.close();
@@ -51,7 +51,6 @@ public class TestMain {
     public void testStudentService() {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         StudentServiceImpl studentService = context.getBean("studentService", StudentServiceImpl.class);
-        System.out.println(studentService);
         System.out.println(studentService.selectAllStudent());
 
 
