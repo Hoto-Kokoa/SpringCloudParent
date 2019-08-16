@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68621227-510d-4e94-a0e3-7eb950593f22" name="Default Changelist" comment="complete">
+      <change afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/java/com/test/controller/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/java/com/test/controller/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/java/com/test/service/Impl/IStudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/java/com/test/service/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/resources/com/test/controller/IStudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/resources/com/test/mapper/IStudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/resources/mybatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/src/main/resources/mybatisConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,76 +28,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="58" column="19" lean-forward="true" selection-start-line="12" selection-end-line="58" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/dao/IStudentDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/dao/IStudentDAO.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="63" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="307">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/InjectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,11 +77,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/service/Impl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/service/Impl/Impl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/test/dao/IStudentDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/domain/InjectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
@@ -156,10 +112,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-280" />
-    <option name="y" value="64" />
+    <option name="x" value="115" />
+    <option name="y" value="159" />
     <option name="width" value="1400" />
-    <option name="height" value="884" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -177,6 +133,181 @@
             <path>
               <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringAndMyBatisAndDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringAndMyBatisAndDruid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +353,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMain.testSpringStudentGetString">
+  <component name="RunManager" selected="JUnit.TestMain.testInjectionTest">
+    <configuration name="TestMain.testInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySpringAndMyBatisAndDruid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test.TestMain" />
+      <option name="METHOD_NAME" value="testInjectionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMain.testSelectAllStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySpringAndMyBatisAndDruid" />
       <extension name="coverage">
@@ -257,6 +404,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMain.testInjectionTest" />
         <item itemvalue="JUnit.TestMain.testSpringStudentGetString" />
         <item itemvalue="JUnit.TestMain.testSelectAllStudent" />
       </list>
@@ -276,7 +424,7 @@
       <workItem from="1565914447359" duration="7199000" />
       <workItem from="1565921706782" duration="3171000" />
       <workItem from="1565924891980" duration="102000" />
-      <workItem from="1565925068651" duration="1743000" />
+      <workItem from="1565925068651" duration="6680000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1565925855473</created>
@@ -317,27 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 04m 12s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 09m 04s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 09m 16s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 25m 21s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 30m 23s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 41m 09s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 10h 42m 26s.xml">
-      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 11h 12m 03s.xml">
       <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
     </history-entry>
@@ -347,14 +474,36 @@
     <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 11h 20m 45s.xml">
       <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 15h 13m 13s.xml">
+      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testSpringStudentGetString - 2019.08.16 at 15h 13m 44s.xml">
+      <configuration name="TestMain.testSpringStudentGetString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testInjectionTest - 2019.08.16 at 15h 18m 07s.xml">
+      <configuration name="TestMain.testInjectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testInjectionTest - 2019.08.16 at 15h 20m 18s.xml">
+      <configuration name="TestMain.testInjectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testInjectionTest - 2019.08.16 at 15h 20m 32s.xml">
+      <configuration name="TestMain.testInjectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testInjectionTest - 2019.08.16 at 15h 22m 21s.xml">
+      <configuration name="TestMain.testInjectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain_testInjectionTest - 2019.08.16 at 15h 24m 43s.xml">
+      <configuration name="TestMain.testInjectionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13058000" />
+    <option name="totallyTimeSpent" value="17995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-280" y="64" width="1400" height="884" extended-state="0" />
+    <frame x="502" y="125" width="1400" height="884" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,13 +513,13 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32533333" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.38133332" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.38133332" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.14533333" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32933334" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32933334" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -394,24 +543,6 @@
     <MESSAGE value="test2" />
     <MESSAGE value="complete" />
     <option name="LAST_COMMIT_MESSAGE" value="complete" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -442,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/test/service/IStudentService.class" />
     <entry file="file://$PROJECT_DIR$/target/classes/com/test/service/Impl/StudentService.class" />
     <entry file="file://$USER_HOME$/.m2/settings.xml">
@@ -458,13 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/Student.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/io/Resources.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="779">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -478,6 +599,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/dao/IStudentDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/dao/IStudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -488,17 +623,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/dao/IStudentDAO.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="227">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/InjectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,15 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="12" selection-end-line="58" selection-end-column="19" />
+        <state relative-caret-position="307">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
         </state>
       </provider>
     </entry>

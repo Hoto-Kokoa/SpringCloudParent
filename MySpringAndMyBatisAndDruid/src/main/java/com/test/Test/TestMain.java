@@ -1,6 +1,7 @@
 package com.test.Test;
 
 import com.test.dao.IStudentDAO;
+import com.test.domain.InjectionTest;
 import com.test.domain.Student;
 import com.test.service.Impl.StudentService;
 import org.apache.ibatis.io.Resources;
@@ -64,5 +65,13 @@ public class TestMain {
         {
             System.out.println(student);
         }
+    }
+
+    @Test
+    public void testInjectionTest()
+    {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        InjectionTest injectionTest = (InjectionTest) context.getBean("injectionTest");
+        System.out.println(injectionTest);
     }
 }
