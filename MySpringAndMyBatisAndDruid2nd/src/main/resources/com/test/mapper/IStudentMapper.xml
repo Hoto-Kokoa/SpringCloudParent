@@ -6,4 +6,15 @@
     <select id="selectAllStudent" resultType="com.test.domain.Student">
         select * from student
     </select>
+
+    <insert id="InsertStudent" parameterType="com.test.domain.Student">
+        insert into student set id = default ,name = #{name};
+    </insert>
+
+    <update id="updateStudent" parameterType="com.test.domain.Student">
+        update student set address = #{address} where name = #{name}
+    </update>
+    <delete id="deleteStudent" parameterType="com.test.domain.Student">
+        delete from student where name = #{name}
+    </delete>
 </mapper>
