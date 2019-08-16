@@ -5,6 +5,10 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="studentService" class="com.test.service.Impl.StudentService"/>
+
+    <bean id = "staffService" class="com.test.service.Impl.StaffService">
+        <property name="staffDAO" ref="IStaffDAO"></property>
+    </bean>
     <bean id="injectionTest" class="com.test.domain.InjectionTest">
         <property name="id" value="123"/>
         <property name="name">
@@ -51,7 +55,7 @@
         </property>
     </bean>
 
-    <bean id="sqlSession" factory-bean="sqlSessionFactory" factory-method="openSession"></bean>
+<!--    <bean id="sqlSession" factory-bean="sqlSessionFactory" factory-method="openSession"></bean>-->
 
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.test.dao"/>

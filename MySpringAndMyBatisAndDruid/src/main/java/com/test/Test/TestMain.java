@@ -2,7 +2,9 @@ package com.test.Test;
 
 import com.test.dao.IStudentDAO;
 import com.test.domain.InjectionTest;
+import com.test.domain.Staff;
 import com.test.domain.Student;
+import com.test.service.Impl.StaffService;
 import com.test.service.Impl.StudentService;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -74,4 +76,44 @@ public class TestMain {
         InjectionTest injectionTest = (InjectionTest) context.getBean("injectionTest");
         System.out.println(injectionTest);
     }
+
+    @Test
+    public void testStaffSelect() {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        StaffService injectionTest = (StaffService) context.getBean("staffService");
+        List<Staff> list = injectionTest.selectAllStaff();
+        System.out.println(list);
+    }
+
+    @Test
+    public void testStaffUpdate() {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        StaffService injectionTest = (StaffService) context.getBean("staffService");
+        Staff staff = new Staff();
+        staff.setName("保登心爱");
+        staff.setHouse("Rabbit House");
+        int  i  = injectionTest.UpdateStaff(staff);
+        System.out.println(i);
+    }
+    @Test
+    public void testStaffInsert() {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        StaffService injectionTest = (StaffService) context.getBean("staffService");
+        Staff staff = new Staff();
+        staff.setName("保登心爱");
+        staff.setHouse("Rabbit House");
+        int  i  = injectionTest.InsertStaff(staff);
+        System.out.println(i);
+    }
+    @Test
+    public void testStaffDelete() {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        StaffService injectionTest = (StaffService) context.getBean("staffService");
+        Staff staff = new Staff();
+        staff.setName("保登心爱");
+        staff.setHouse("Rabbit House");
+        int  i  = injectionTest.DeleteStaff(staff);
+        System.out.println(i);
+    }
+
 }

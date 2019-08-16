@@ -1,0 +1,12 @@
+2019-08-16 20:09:21,500 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:09:57,681 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:13:34,938 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:13:58,338 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:14:44,326 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:17:38,412 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:18:09,197 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:19:47,166 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:20:48,891 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:23:26,302 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:24:24,099 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-16 20:25:22,420 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited

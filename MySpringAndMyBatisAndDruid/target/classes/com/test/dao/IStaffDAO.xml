@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.dao.IStaffDAO">
+    <select id="selectAllStaff" resultType="com.test.domain.Staff">
+        select * from staff
+    </select>
+    <update id="UpdateStaff" parameterType="com.test.domain.Staff">
+        update staff set house = #{house}
+    </update>
+    <insert id="InsertStaff" parameterType="com.test.domain.Staff">
+        insert into staff set staff_id = default ,name = #{name}, house = #{house};
+    </insert>
+    <delete id="DeleteStaff" parameterType="com.test.domain.Staff">
+        delete from staff where name = #{name} and house = #{house}
+    </delete>
+</mapper>
