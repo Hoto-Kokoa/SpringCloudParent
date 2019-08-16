@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68621227-510d-4e94-a0e3-7eb950593f22" name="Default Changelist" comment="" />
+    <list default="true" id="68621227-510d-4e94-a0e3-7eb950593f22" name="Default Changelist" comment="complete">
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="265">
+              <caret line="58" column="19" lean-forward="true" selection-start-line="12" selection-end-line="58" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="133">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -153,8 +156,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="351" />
-    <option name="y" value="100" />
+    <option name="x" value="-280" />
+    <option name="y" value="64" />
     <option name="width" value="1400" />
     <option name="height" value="884" />
   </component>
@@ -273,7 +276,7 @@
       <workItem from="1565914447359" duration="7199000" />
       <workItem from="1565921706782" duration="3171000" />
       <workItem from="1565924891980" duration="102000" />
-      <workItem from="1565925068651" duration="1258000" />
+      <workItem from="1565925068651" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1565925855473</created>
@@ -296,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565926136671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete">
+      <created>1565926381103</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565926381103</updated>
+    </task>
+    <task id="LOCAL-00005" summary="complete">
+      <created>1565926394449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565926394449</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -332,10 +349,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12573000" />
+    <option name="totallyTimeSpent" value="13058000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="351" y="100" width="1400" height="884" extended-state="0" />
+    <frame x="-280" y="64" width="1400" height="884" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -347,13 +364,13 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32533333" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.38133332" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38133332" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.14533333" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32933334" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -375,7 +392,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -496,8 +507,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="133">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="58" column="19" lean-forward="true" selection-start-line="12" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
     </entry>
