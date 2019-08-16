@@ -5,7 +5,7 @@ import com.test.mapper.IStudentMapper;
 
 import java.util.List;
 
-public class IStudentServiceImpl {
+public class StudentServiceImpl {
 
     private IStudentMapper studentMapper;
 
