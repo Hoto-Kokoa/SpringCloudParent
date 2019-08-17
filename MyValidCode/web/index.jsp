@@ -25,10 +25,10 @@
     </script>
 </head>
 <body>
-<form action="" method="post">
+<form action="login" method="post">
     用户名:<input type="text" name="username"/><br>
     密码:<input type="password" name="password"/><br>
-    验证码<input type="text" size="1"/>
+    验证码<input type="text" name="code" size="1"/>
     <img src="validcode"/>
     <a href="">看不清</a> <br><br>
     <input type="submit" value="登陆"/><input type="reset" value="重置">
