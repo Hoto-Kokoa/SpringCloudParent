@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf988c49-49a1-4d37-93dd-6979595324e4" name="Default Changelist" comment="11点59分">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/configuration/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/src/main/java/com/test/domain/InjectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/src/main/java/com/test/domain/InjectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/com/test/Test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/com/test/Test/TestMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/controller/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/controller/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/mapper/IStudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/mapper/IStudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/servlet/LoginServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,16 +25,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/JdbcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,52 +54,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="209">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mapper/IStudentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,13 +75,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>con</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="保登心爱 &lt;lhjer@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mapper/SelectAllStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mapper/ISelectAllStudent.java" />
@@ -115,20 +99,37 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/studentMapper/InsertStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/domain/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mapper/IStudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/service/IAnnotationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/controller/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/configuration/JdbcConfig.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MySpringAndMyBatisAndDruid2nd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="445" />
-    <option name="y" value="153" />
+    <option name="x" value="364" />
+    <option name="y" value="69" />
     <option name="width" value="1399" />
-    <option name="height" value="884" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -188,7 +189,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +199,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
@@ -240,123 +241,44 @@
             </path>
             <path>
               <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringAndMyBatisAndDruid2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringAndMyBatisAndDruid2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringAndMyBatisAndDruid2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringAndMyBatisAndDruid2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringAndMyBatisAndDruid2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.5.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="defaults" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/JdbcDemo1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.52342856" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="studentMapper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\long\Desktop\MyProject\MySpringAndMyBatisAndDruid2nd\src\main\resources\com\test\mapper" />
       <recent name="C:\Users\long\Desktop\MyProject\MySpringAndMyBatisAndDruid2nd\src\main\resources\com\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\long\Desktop\MyProject\MySpringAndMyBatisAndDruid2nd\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="studentMapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -371,8 +293,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMain.testDeleteStudent">
-    <configuration name="TestMain.testDeleteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAnnotation.testAnnotationValue">
+    <configuration name="TestAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySpringAndMyBatisAndDruid2nd" />
       <extension name="coverage">
         <pattern>
@@ -381,14 +303,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestMain" />
-      <option name="METHOD_NAME" value="testDeleteStudent" />
+      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestAnnotation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnnotation.testAnnotationValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySpringAndMyBatisAndDruid2nd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestAnnotation" />
+      <option name="METHOD_NAME" value="testAnnotationValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testDruidConnetion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMain.testAnnotationInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySpringAndMyBatisAndDruid2nd" />
       <extension name="coverage">
         <pattern>
@@ -398,23 +335,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test.controller" />
       <option name="MAIN_CLASS_NAME" value="com.test.controller.TestMain" />
-      <option name="METHOD_NAME" value="testDruidConnetion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMain.testDruidConnetion1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MySpringAndMyBatisAndDruid2nd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestMain" />
-      <option name="METHOD_NAME" value="testDruidConnetion1" />
+      <option name="METHOD_NAME" value="testAnnotationInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -436,7 +357,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testUpdateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMain.testStudentService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySpringAndMyBatisAndDruid2nd" />
       <extension name="coverage">
         <pattern>
@@ -446,7 +367,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test.controller" />
       <option name="MAIN_CLASS_NAME" value="com.test.controller.TestMain" />
-      <option name="METHOD_NAME" value="testUpdateStudent" />
+      <option name="METHOD_NAME" value="testStudentService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -454,11 +375,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestMain.testDeleteStudent" />
-        <item itemvalue="JUnit.TestMain.testUpdateStudent" />
-        <item itemvalue="JUnit.TestMain.testDruidConnetion1" />
+        <item itemvalue="JUnit.TestAnnotation.testAnnotationValue" />
+        <item itemvalue="JUnit.TestMain.testStudentService" />
+        <item itemvalue="JUnit.TestAnnotation" />
+        <item itemvalue="JUnit.TestMain.testAnnotationInsert" />
         <item itemvalue="JUnit.TestMain.testInsertStudent" />
-        <item itemvalue="JUnit.TestMain.testDruidConnetion" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +393,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565926245315</updated>
-      <workItem from="1565926251031" duration="13504000" />
+      <workItem from="1565926251031" duration="16885000" />
+      <workItem from="1566184366462" duration="8164000" />
+      <workItem from="1566202111664" duration="4368000" />
+      <workItem from="1566206639769" duration="7246000" />
     </task>
     <task id="LOCAL-00001" summary="2nd">
       <created>1565926298594</created>
@@ -530,78 +454,85 @@
       <option name="project" value="LOCAL" />
       <updated>1565941262594</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="student表 增删改查">
+      <created>1565949620115</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565949620115</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMain_testInsertStudent - 2019.08.16 at 17h 34m 32s.xml">
-      <configuration name="TestMain.testInsertStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 19h 38m 06s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testInsertStudent - 2019.08.16 at 17h 35m 52s.xml">
-      <configuration name="TestMain.testInsertStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 19h 38m 25s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testInsertStudent - 2019.08.16 at 17h 37m 06s.xml">
-      <configuration name="TestMain.testInsertStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 19h 45m 11s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testInsertStudent - 2019.08.16 at 17h 37m 59s.xml">
-      <configuration name="TestMain.testInsertStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 19h 45m 26s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testInsertStudent - 2019.08.16 at 17h 38m 17s.xml">
-      <configuration name="TestMain.testInsertStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 19h 59m 04s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testDruidConnetion1 - 2019.08.16 at 17h 39m 48s.xml">
-      <configuration name="TestMain.testDruidConnetion1" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 20h 03m 07s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testDruidConnetion1 - 2019.08.16 at 17h 51m 51s.xml">
-      <configuration name="TestMain.testDruidConnetion1" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 20h 08m 52s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testUpdateStudent - 2019.08.16 at 17h 52m 06s.xml">
-      <configuration name="TestMain.testUpdateStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 20h 12m 23s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testUpdateStudent - 2019.08.16 at 17h 52m 45s.xml">
-      <configuration name="TestMain.testUpdateStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 20h 13m 30s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain_testUpdateStudent - 2019.08.16 at 17h 54m 14s.xml">
-      <configuration name="TestMain.testUpdateStudent" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.19 at 20h 14m 56s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13504000" />
+    <option name="totallyTimeSpent" value="36663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="153" width="1399" height="884" extended-state="0" />
+    <frame x="364" y="69" width="1399" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2501867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26064226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32933334" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32933334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38659793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3273196" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14861837" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,16 +543,10 @@
     <MESSAGE value="11点59分" />
     <MESSAGE value="test" />
     <MESSAGE value="Test Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Complete" />
+    <MESSAGE value="student表 增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="student表 增删改查" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -636,13 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentMapper/InsertStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentMapper/InsertStudent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/domain/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -653,67 +572,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/IAnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1736">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.0/mybatis-spring-2.0.0.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="149">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mapper/IStudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="271">
+          <caret line="63" column="103" selection-start-line="63" selection-start-column="103" selection-end-line="63" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+        <state relative-caret-position="214">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/JdbcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
