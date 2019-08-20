@@ -81,7 +81,6 @@ public class TestCommit {
             sqlsession1.close();
             connection.close();
         }
-
     }
 
 }
