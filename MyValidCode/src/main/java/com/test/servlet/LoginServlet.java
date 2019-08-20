@@ -39,6 +39,7 @@ public class LoginServlet extends HttpServlet
         resp.setContentType("text/html;charset=UTF-8");
         String code = req.getParameter("code");
         HttpSession session = req.getSession();
+        System.out.println(session.getId());
         String codeSession = (String) session.getAttribute("code");
         if (codeSession.equals(code)) {
             System.out.println("验证码正确");

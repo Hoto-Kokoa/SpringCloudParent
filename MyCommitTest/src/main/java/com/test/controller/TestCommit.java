@@ -25,7 +25,7 @@ public class TestCommit {
     private SqlSessionFactory sqlSessionFactory;
 
     @Autowired
-    private SqlSession session1;
+    private SqlSession sqlsession1;
 
 
     @Test
@@ -60,9 +60,28 @@ public class TestCommit {
     }
 
     @Test
-    public void testApplicationContextBySqlSession()
-    {
-        System.out.println(session1);
+    public void testApplicationContextBySqlSession() throws SQLException {
+        Connection connection = sqlsession1.getConnection();
+        connection.setAutoCommit(false);
+
+        //获取代理对象
+        IStudentMapper mapper = sqlsession1.getMapper(IStudentMapper.class);
+
+
+        try {
+            Student student = new Student();
+            student.setName("香风智乃");
+            int i =  mapper.InsertStudent(student);
+            System.out.println(i);
+            connection.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            connection.rollback();
+        } finally {
+            sqlsession1.close();
+            connection.close();
+        }
+
     }
 
 }
