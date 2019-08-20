@@ -3,6 +3,7 @@ package com.test.controller;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;
+import com.test.configuration.SpringConfiguration;
 import com.test.domain.Student;
 import com.test.mapper.IStudentMapper;
 import com.test.service.IStudentService;
@@ -16,9 +17,14 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
@@ -33,10 +39,15 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.ResourceBundle;
 
-
+//@RunWith(SpringJUnit4ClassRunner.class)
+@Component
+@ComponentScan("com.test.controller")
+@PropertySource("classpath:Jdbc.properties")
 public class TestMain {
-
+    @Value("123")
+    private String name;
 
     private IStudentMapper mapper;
     private InputStream resourceAsStream;
@@ -136,6 +147,11 @@ public class TestMain {
 
         testAnnotation.testSelectStudent();
 
+    }
+
+    @Test
+    public void testProperties() {
+        System.out.println("${username}");
     }
 
 }

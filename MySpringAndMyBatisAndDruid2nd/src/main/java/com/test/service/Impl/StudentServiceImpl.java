@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -17,6 +18,7 @@ import java.util.List;
 @Getter
 @ToString
 @Component("studentService01")
+
 public class StudentServiceImpl implements IStudentService {
     @Autowired
     private IStudentMapper studentMapper;
