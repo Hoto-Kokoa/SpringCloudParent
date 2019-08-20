@@ -36,7 +36,6 @@ public class TransactionManagerAdvance implements InvocationHandler{
         Object ret = null;
         try {
             ret = method.invoke(target, objects);
-
         } catch (Exception e) {
             e.printStackTrace();
             txManger.rollback();
