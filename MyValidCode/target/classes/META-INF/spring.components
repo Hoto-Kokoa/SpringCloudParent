@@ -1,0 +1,4 @@
+#
+#Sat Aug 17 14:50:45 CST 2019
+com.test.servlet.ValidCodeServlet=javax.servlet.annotation.WebServlet
+com.test.servlet.LoginServlet=javax.servlet.annotation.WebServlet

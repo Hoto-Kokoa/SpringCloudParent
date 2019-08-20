@@ -1,0 +1,6 @@
+2019-08-20 11:46:48,636 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-20 11:46:49,136 500    [       Thread-1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closing ...
+2019-08-20 11:46:49,144 508    [       Thread-1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2019-08-20 11:59:45,806 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2019-08-20 11:59:46,152 346    [       Thread-1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closing ...
+2019-08-20 11:59:46,157 351    [       Thread-1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
