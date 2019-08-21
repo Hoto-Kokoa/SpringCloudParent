@@ -1,5 +1,6 @@
 package com.test.tx;
 
+import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.InvocationHandler;
 import org.springframework.cglib.proxy.Proxy;
 
@@ -22,9 +23,10 @@ public class TransactionManagerAdvance implements InvocationHandler{
 
     //创建一个代理对象
     public <T>T getProxyObject() {
-        return (T) Proxy.newProxyInstance(target.getClass().getClassLoader(), //类加载器,一般跟上真实对象
-               target.getClass().getInterfaces(), //真实对象实现的接口(  JDK动态代理必须要求真实对象有接口
-               this );//如何做事务增强的对象
+        Enhancer enhancer = new Enhancer();
+        enhancer.setSuperclass(target.getClass());
+        enhancer.setCallback(this);
+        return  (T) enhancer.create();
 
     }
 

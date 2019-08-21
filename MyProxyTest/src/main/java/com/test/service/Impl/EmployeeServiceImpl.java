@@ -2,12 +2,11 @@ package com.test.service.Impl;
 
 import com.test.dao.IEmployeeDAO;
 import com.test.domain.Employee;
-import com.test.service.IEmployeeService;
 import lombok.Setter;
 
 
 @Setter
-public class EmployeeServiceImpl implements IEmployeeService {
+public class EmployeeServiceImpl{
 
     private IEmployeeDAO dao;
 
