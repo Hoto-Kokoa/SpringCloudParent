@@ -1,10 +1,11 @@
 package com.test.tx;
 
 import lombok.Setter;
-import org.springframework.cglib.proxy.InvocationHandler;
-import org.springframework.cglib.proxy.Proxy;
 
+
+import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 @Setter
 public class TransactionManagerAdvance implements InvocationHandler {
