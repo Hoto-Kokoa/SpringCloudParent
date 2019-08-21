@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="employeeDAO" class="com.test.dao.Impl.EmployeeDAOImpl"/>
+
+
+    <bean id="transactionManager" class="com.test.tx.TransactionManager"/>
+
+    <bean id="employeeService" class="com.test.service.Impl.EmployeeServiceImpl">
+        <property name="dao" ref="employeeDAO"></property>
+    </bean>
+
+    <bean id="transactionManagerAdvance" class="com.test.tx.TransactionManagerAdvance">
+        <property name="service" ref="employeeService"/>
+        <property name="txManger" ref="transactionManager"/>
+    </bean>
+</beans>
