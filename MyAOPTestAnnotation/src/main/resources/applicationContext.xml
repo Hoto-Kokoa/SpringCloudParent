@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:scope="http://www.springframework.org/schema/c" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+<!--    使用注解需要三方程序参与
+         1.注解本身
+         2.被贴的程序元素
+         3.第三方程序赋予注解特殊的功能
+-->
+
+
+<!--    DI注解解析器,如果有Ioc注解解析器可以不写-->
+<!--    <context:component-scan base-package=""/>-->
+
+<!--    Ioc注解解析器-->
+    <context:component-scan base-package="com.test"/>
+<!--aop注解解析器-->
+    <aop:aspectj-autoproxy/>
+
+
+
+
+
+
+<!--    <bean id="employeeDAO" class="com.test.dao.Impl.EmployeeDAOImpl"/>-->
+<!--    <bean id="employeeService" class="com.test.service.Impl.EmployeeServiceImpl" scope="singleton">-->
+<!--        <property name="dao" ref="employeeDAO" />-->
+<!--    </bean>-->
+
+
+
+
+
+<!--&lt;!&ndash;    what 做什么增强&ndash;&gt;-->
+<!--    <bean id="txManager" class="com.test.tx.TransactionManager"/>-->
+<!--    <aop:config proxy-target-class="true">-->
+<!--        <aop:aspect ref="txManager"> &lt;!&ndash;   关联增强&ndash;&gt;-->
+
+<!--&lt;!&ndash;            where 在哪些保重的哪些类中的哪些方法做增强&ndash;&gt;-->
+<!--            <aop:pointcut id="txPoint" expression="execution(* com.test.service.*Service.*(..))"/>-->
+
+<!--&lt;!&ndash;            when 在方法执行的什么时机做增强&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:before method="begin" pointcut-ref="txPoint"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:after-returning method="commit" pointcut-ref="txPoint"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:after-throwing method="rollback" pointcut-ref="txPoint" throwing="ex"/>&ndash;&gt;-->
+<!--            <aop:around method="aroundMethod" pointcut-ref="txPoint"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+</beans>
