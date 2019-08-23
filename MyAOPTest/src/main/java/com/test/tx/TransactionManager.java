@@ -24,7 +24,6 @@ public class TransactionManager {
         System.out.println("开启事务");
         try {
             ret = pjp.proceed();//调用真实对象方法
-
             System.out.println("kokoa");
             System.out.println("提交事务");
             ;

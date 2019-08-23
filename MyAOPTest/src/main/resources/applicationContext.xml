@@ -7,17 +7,38 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 
-    <bean id="employeeDAO" class="com.test.dao.Impl.EmployeeDAOImpl"/>
 
 
+<!--    <bean id="employeeDAO" class="com.test.dao.IEmployeeDAO"/>-->
 
-    <bean id="employeeService" class="com.test.service.Impl.EmployeeServiceImpl" scope="singleton">
-        <property name="dao" ref="employeeDAO" />
+    <bean id="employeeService" class="com.test.service.Impl.EmployeeServiceImpl">
+        <property name="dao" ref="IEmployeeDAO" />
     </bean>
+
+
+<!--配置数据库连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test_01?serverTimezone=Asia/Shanghai&amp;useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+<!--  配置MyBatis  -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+<!--    -->
+<!--    扫描dao层,生成代理对象-->
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.test.dao"></property>
+    </bean>
+
+
 <!--    what 做什么增强-->
     <bean id="txManager" class="com.test.tx.TransactionManager"/>
     <aop:config proxy-target-class="true">
-        <aop:aspect ref="txManager"> <!--   关联增强-->
+        <aop:aspect ref="txManager">   <!--   关联增强-->
 
 <!--            where 在哪些保重的哪些类中的哪些方法做增强-->
             <aop:pointcut id="txPoint" expression="execution(* com.test.service.*Service.*(..))"/>
