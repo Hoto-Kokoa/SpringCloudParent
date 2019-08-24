@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @ComponentScan("com.test.service")
 @MapperScan("com.test.mapper")
-@Import(value = JdbcConfig.class)
+@Import(value = {JdbcConfig.class,TransactionConfig.class})
 public class SpringConfiguration {
 }

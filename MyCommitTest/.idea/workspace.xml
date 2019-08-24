@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6e9f1f0-803c-44bd-82f8-790513eb2b54" name="Default Changelist" comment="静态代理模式" />
+    <list default="true" id="d6e9f1f0-803c-44bd-82f8-790513eb2b54" name="Default Changelist" comment="静态代理模式">
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/MyAOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/dao/IEmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/test/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/configuration/TransactionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/myInterface/IMyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/myInterface/Impl/MyInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAOPTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOPTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAOPTestAnnotation/src/main/java/com/test/tx/TransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOPTestAnnotation/src/main/java/com/test/tx/TransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a12xis.log" beforeDir="false" afterPath="$PROJECT_DIR$/a12xis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/configuration/SpringConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/configuration/SpringConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/a12xis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/a12xis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/com/test/Test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/com/test/Test/TestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="4fa46efa-0f10-4237-85cd-d2833613815e" name="通过connection控制事务手动提交" comment="通过connection控制事务手动提交&#10;&#10;(cherry picked from commit 85ad7a1b475f88efe1ec50b889740304f1a832d4)">
       <changelist_data name="保登心爱" email="lhjer@qq.com" date="1566272863000" />
     </list>
@@ -19,58 +59,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestCommit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/ISubject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/RealSubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/testSubject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/ProxySubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -98,12 +108,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/proxy/RealSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/proxy/ProxySubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/proxy/testSubject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/configuration/TransactionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="526" />
-    <option name="y" value="132" />
+    <option name="x" value="469" />
+    <option name="y" value="103" />
     <option name="width" value="1399" />
     <option name="height" value="860" />
   </component>
@@ -166,7 +179,151 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCommitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCommitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +367,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testSubject.testProxySubject">
+  <component name="RunManager" selected="JUnit.TestAnnotation.testAnnotationValue">
+    <configuration name="TestAnnotation.testAnnotationValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyCommitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestAnnotation" />
+      <option name="METHOD_NAME" value="testAnnotationValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnnotation.testSelectStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyCommitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestAnnotation" />
+      <option name="METHOD_NAME" value="testSelectStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCommit.testApplicationContextBySqlSession" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyCommitTest" />
       <extension name="coverage">
@@ -222,22 +411,6 @@
       <option name="PACKAGE_NAME" value="com.test.controller" />
       <option name="MAIN_CLASS_NAME" value="com.test.controller.TestCommit" />
       <option name="METHOD_NAME" value="testApplicationContextBySqlSession" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCommit.testApplicationContextBySqlSessionFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyCommitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.test.controller.TestCommit" />
-      <option name="METHOD_NAME" value="testApplicationContextBySqlSessionFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,10 +450,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAnnotation.testAnnotationValue" />
+        <item itemvalue="JUnit.TestAnnotation.testSelectStudent" />
         <item itemvalue="JUnit.testSubject.testProxySubject" />
         <item itemvalue="JUnit.testSubject.testRealSubject" />
         <item itemvalue="JUnit.TestCommit.testApplicationContextBySqlSession" />
-        <item itemvalue="JUnit.TestCommit.testApplicationContextBySqlSessionFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +469,9 @@
       <option name="presentableId" value="Default" />
       <updated>1566272733624</updated>
       <workItem from="1566272735202" duration="1893000" />
-      <workItem from="1566282251907" duration="3538000" />
+      <workItem from="1566282251907" duration="3770000" />
+      <workItem from="1566530537502" duration="27000" />
+      <workItem from="1566611125732" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="通过connection控制事务手动提交">
       <created>1566272863684</created>
@@ -336,26 +512,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCommit_testApplicationContextBySqlSessionFactory - 2019.08.20 at 11h 46m 49s.xml">
-      <configuration name="TestCommit.testApplicationContextBySqlSessionFactory" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.24 at 10h 46m 10s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCommit_testApplicationContextBySqlSession - 2019.08.20 at 11h 59m 46s.xml">
-      <configuration name="TestCommit.testApplicationContextBySqlSession" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testSelectStudent - 2019.08.24 at 10h 50m 49s.xml">
+      <configuration name="TestAnnotation.testSelectStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testSubject_testRealSubject - 2019.08.20 at 17h 42m 11s.xml">
-      <configuration name="testSubject.testRealSubject" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testSelectStudent - 2019.08.24 at 10h 51m 40s.xml">
+      <configuration name="TestAnnotation.testSelectStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testSubject_testProxySubject - 2019.08.20 at 17h 45m 27s.xml">
-      <configuration name="testSubject.testProxySubject" configurationId="JUnit" />
+    <history-entry file="TestAnnotation_testSelectStudent - 2019.08.24 at 10h 52m 02s.xml">
+      <configuration name="TestAnnotation.testSelectStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnnotation_testSelectStudent - 2019.08.24 at 10h 53m 37s.xml">
+      <configuration name="TestAnnotation.testSelectStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnnotation_testSelectStudent - 2019.08.24 at 10h 54m 04s.xml">
+      <configuration name="TestAnnotation.testSelectStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnnotation_testSelectStudent - 2019.08.24 at 10h 54m 28s.xml">
+      <configuration name="TestAnnotation.testSelectStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.24 at 10h 55m 17s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.24 at 10h 55m 40s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnnotation_testAnnotationValue - 2019.08.24 at 10h 56m 00s.xml">
+      <configuration name="TestAnnotation.testAnnotationValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5431000" />
+    <option name="totallyTimeSpent" value="8484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="132" width="1399" height="860" extended-state="0" />
+    <frame x="469" y="103" width="1399" height="860" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.253174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26064226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -364,8 +559,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962658" weight="0.3292011" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962658" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -375,7 +570,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003734" side_tool="true" weight="0.3292011" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3292011" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49962658" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49962658" weight="0.3287483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -457,6 +652,18 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -477,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestCommit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="247">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="e#1822#1823#0" expanded="true" />
             <element signature="e#1866#1867#0" expanded="true" />
@@ -493,32 +700,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/RealSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/ProxySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/testSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="218" column="18" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/IStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mapper/IStudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/test/mapper/IStudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/ProxySubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/proxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/JdbcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/TransactionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/configuration/SpringConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/service/Impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
