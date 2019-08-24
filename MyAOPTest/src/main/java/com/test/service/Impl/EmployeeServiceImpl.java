@@ -7,8 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+
+import static java.lang.Thread.sleep;
 
 
 @Setter
@@ -25,14 +28,22 @@ public class EmployeeServiceImpl implements IEmployeeService {
         System.out.println("保存成功");
     }
 
+
     public void update(Employee emp) {
         dao.update(emp);
-        throw new RuntimeException("故意出错");
+        System.out.println("emp");
+//        throw new RuntimeException("故意出错");
     }
 
     public List<Employee> selectAll() {
+        try {
+            sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return dao.selectAll();
     }
+
 
     public void testProxy() {
         System.out.println("success!!!!!!!!!!");

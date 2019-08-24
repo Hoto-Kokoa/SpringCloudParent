@@ -3,8 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:scope="http://www.springframework.org/schema/c" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
 
@@ -24,6 +25,10 @@
         <property name="password" value="123456"/>
     </bean>
 
+
+
+
+
 <!--  配置MyBatis  -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
@@ -38,17 +43,35 @@
 <!--    what 做什么增强-->
     <bean id="txManager" class="com.test.tx.TransactionManager"/>
     <aop:config proxy-target-class="true">
+        <aop:pointcut id="txPt" expression="execution(* com.test.service.*Service.*(..)))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPt"/>
+
         <aop:aspect ref="txManager">   <!--   关联增强-->
 
 <!--            where 在哪些保重的哪些类中的哪些方法做增强-->
             <aop:pointcut id="txPoint" expression="execution(* com.test.service.*Service.*(..))"/>
-
 <!--            when 在方法执行的什么时机做增强-->
 <!--            <aop:before method="begin" pointcut-ref="txPoint"/>-->
 <!--            <aop:after-returning method="commit" pointcut-ref="txPoint"/>-->
 <!--            <aop:after-throwing method="rollback" pointcut-ref="txPoint" throwing="ex"/>-->
             <aop:around method="aroundMethod" pointcut-ref="txPoint"/>
+
         </aop:aspect>
     </aop:config>
+
+<!--    SPring的事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+<!--    事务的通知引用事务管理器-->
+    <tx:advice id="txAdvice">
+        <tx:attributes>
+            <tx:method name="*" timeout="5"/>
+            <tx:method name="update" read-only="true"></tx:method>
+        </tx:attributes>
+    </tx:advice>
+
+
 
 </beans>
