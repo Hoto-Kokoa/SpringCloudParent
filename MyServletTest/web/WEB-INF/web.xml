@@ -7,9 +7,28 @@
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>com.test.servlet.TestServlet</servlet-class>
     </servlet>
-    
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/a</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TestServletDispatcher</servlet-name>
+        <servlet-class>com.test.servlet.TestServletDispatcher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServletDispatcher</servlet-name>
+        <url-pattern>/TestServletDispatcher</url-pattern>
+    </servlet-mapping>
+
+
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>123</param-value>
+    </context-param>
+    <context-param>
+        <param-name>kokoa</param-name>
+        <param-value>17</param-value>
+    </context-param>
 </web-app>
