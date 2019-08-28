@@ -3,15 +3,17 @@ package com.test.servlet;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Enumeration;
 
-import static java.lang.Thread.sleep;
-
-
+@WebServlet(urlPatterns = "/a", loadOnStartup = 2,initParams = {
+        @WebInitParam(name = "name1", value = "1213")
+})
 public class TestServlet extends HttpServlet {
 
     //    private static Integer i = 100;
@@ -20,7 +22,6 @@ public class TestServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.service(req, resp);
-        System.out.println("Service");
 
 
     }
@@ -35,8 +36,18 @@ public class TestServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         resp.getWriter().write("接收到了Get请求");
 
+//        String name1 = servletConfig.getInitParameter("name1");
+//        System.out.println(name1);
 
-        //获取配置信息
+//        Enumeration<String> parameterNames = req.getParameterNames();
+//        while (parameterNames.hasMoreElements()) {
+//            String s = parameterNames.nextElement();
+//            System.out.println(s);
+//            System.out.println(req.getParameter(s));
+//        }
+
+           System.out.println(req.getParameter("username"));
+//        获取配置信息
 //        ServletContext servletContext = servletConfig.getServletContext();
 //        Enumeration initParameterNames = servletContext.getInitParameterNames();
 //        while (initParameterNames.hasMoreElements()) {
@@ -66,6 +77,7 @@ public class TestServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
         System.out.println("接收到了Post请求");
-
+        String username = req.getParameter("username");
+        System.out.println(username);
     }
 }
