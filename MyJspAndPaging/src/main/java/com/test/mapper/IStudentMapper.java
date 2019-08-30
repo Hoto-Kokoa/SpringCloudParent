@@ -4,6 +4,7 @@ import com.test.domain.Student;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
@@ -19,4 +20,7 @@ public interface IStudentMapper {
 
     @Insert("insert student values(default,#{name},#{sex},#{address},#{department})")
     Integer insertStudnent(Student student);
+
+    @Update("update student set id = #{id},name = #{name}, sex = #{sex}, address = #{address} where id =#{id}")
+    Integer updateStudent(Student student);
 }

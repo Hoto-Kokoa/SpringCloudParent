@@ -43,4 +43,13 @@ public class TestStudent {
         Student student = studentService.selectStudentById(1041);
         System.out.println(student);
     }
+
+    @Test
+    public void testUpdateStudent() {
+        Student student = new Student();
+        student.setName("保登心爱");
+        student.setId(995);
+        student.setSex("女");
+        studentService.updateStudent(student);
+    }
 }

@@ -30,4 +30,8 @@ public class StudentServiceImpl implements IStudentService {
     public Integer insertStudnent(Student student) {
         return studentMapper.insertStudnent(student);
     }
+
+    public Integer updateStudent(Student student) {
+        return studentMapper.updateStudent(student);
+    }
 }

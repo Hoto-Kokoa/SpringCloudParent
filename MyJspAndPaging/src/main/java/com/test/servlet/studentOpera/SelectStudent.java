@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Enumeration;
 import java.util.List;
 
 @WebServlet("/a")
@@ -31,6 +32,13 @@ public class SelectStudent extends HttpServlet {
         studentService = (StudentServiceImpl) context.getBean("studentService");
         students = studentService.selectAllStudent();
         req.setAttribute("students",students);
+
+        Enumeration<String> headerNames = req.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            System.out.println(headerNames.nextElement());
+        }
+
+
         req.getRequestDispatcher("/WEB-INF/views/student/student.jsp").forward(req,resp);
     }
 

@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/update")
-public class UpdateStudent extends HttpServlet {
+@WebServlet("/update2")
+public class UpdateStudentSubmit extends HttpServlet {
     private IStudentService studentService;
 
     @Override
@@ -25,12 +25,16 @@ public class UpdateStudent extends HttpServlet {
         //从Spring容器中获取studentService代理对象
         WebApplicationContext context = WebApplicationContextUtils.getRequiredWebApplicationContext(getServletContext());
         studentService = (StudentServiceImpl) context.getBean("studentService");
-        Integer id = Integer.valueOf(req.getParameter("id")) ;
-        Student student = studentService.selectStudentById(id);
-        req.setAttribute("id", student.getId());
-        req.setAttribute("username", student.getName());
-        req.setAttribute("sex", student.getSex());
-        req.setAttribute("address", student.getAddress());
-        req.getRequestDispatcher("/updateStudent").forward(req,resp);
+        Student student = new Student();
+        student.setId(Integer.valueOf(req.getParameter("id")));
+        student.setName(req.getParameter("username"));
+        student.setSex(req.getParameter("sex"));
+        student.setAddress(req.getParameter("address"));
+        System.out.println(student);
+        Integer integer = studentService.updateStudent(student);
+        if (integer == 1) {
+            req.setAttribute("msg", "修改完成");
+        }
+        req.getRequestDispatcher("/a").forward(req,resp);
     }
 }

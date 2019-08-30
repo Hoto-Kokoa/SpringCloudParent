@@ -12,7 +12,9 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/insert" method="post">
+<form action="/update2" method="post">
+<%--    记录ID--%>
+    <input type="hidden" name="id" value="${id}" >
     姓名:<input type="text" name="username" value="${username}" required><br>
     性别:
     <input type="radio" name="sex" value="男" \

@@ -12,4 +12,6 @@ public interface IStudentService {
     Integer deleteStudent(Integer id);
 
     Integer insertStudnent(Student student);
+
+    Integer updateStudent(Student student);
 }
