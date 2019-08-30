@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/insert" method="post">
+<form action="/cmd?cmd=insert" method="post">
     姓名:<input type="text" name="username" value="保登心爱" required><br>
     性别:
     <input type="radio" name="sex" value="男">男

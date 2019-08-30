@@ -12,7 +12,11 @@
     <title></title>
 </head>
 <body>
-${msg}<br>
+${msg}
+<c:if test="${msg != null}">
+    <br>
+</c:if>
+
 <a href="/insertStudent">添加</a>
 <table style="border-color: pink" border="1px">
     <tr style="background-color: pink">
@@ -30,8 +34,8 @@ ${msg}<br>
             <td>${s.sex}</td>
             <td>${s.address}</td>
             <td>
-                <a href="/delete?id=${s.id}">删除</a>
-                <a href="/update?id=${s.id}">编辑</a>
+                <a href="/cmd?cmd=delete&id=${s.id}">删除</a>
+                <a href="/cmd?cmd=update&id=${s.id}">编辑</a>
             </td>
         </tr>
     </c:forEach>

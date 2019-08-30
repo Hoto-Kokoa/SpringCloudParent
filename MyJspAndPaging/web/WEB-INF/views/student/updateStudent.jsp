@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/update2" method="post">
+<form action="/cmd?cmd=updateSubmit" method="post">
 <%--    记录ID--%>
     <input type="hidden" name="id" value="${id}" >
     姓名:<input type="text" name="username" value="${username}" required><br>
