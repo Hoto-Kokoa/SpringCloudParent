@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+<!--    1.处理器映射器-->
+
+<!--      BeanNameUrlHandlerMapping
+          会按照处理器的id/name作为URL去查找
+
+          /hello 去匹配id或者name为/hello的bean
+ -->
+    <bean  class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+
+<!--    2.处理器适配器-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+<!--    3.视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
+<!--    4.处理器-->
+    <bean id="/hello" class="cn.wolfcode.hello.HelloController" />
+</beans>
