@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-123
+<% out.print("123");%>
 </body>
 </html>

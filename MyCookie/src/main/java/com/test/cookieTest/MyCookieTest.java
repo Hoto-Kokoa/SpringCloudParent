@@ -74,7 +74,7 @@ public class MyCookieTest extends HttpServlet {
 //            username.setSecure(true);
             username.setMaxAge(30);
             resp.addCookie(username);
-//            resp.addCookie(date1);
+            resp.addCookie(date1);
             writer.write("不存在cookie,已经创建");
         }
 

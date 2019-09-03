@@ -20,39 +20,18 @@
       <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/test/TestMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/tx/TransactionManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyCookie_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyCookie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/cookieTest/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyCookie_war.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyFileUpload/.idea/artifacts/MyFileUpload_war_exploded.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyFileUpload/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyFileUpload/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyFileUpload/src/main/java/com/test/servlet/UploadServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyFileUpload/web/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyFileUpload/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFilter/src/main/java/com/test/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFilter/src/main/java/com/test/servlet/LoginServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/myInterface/IMyInterface.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/myInterface/Impl/MyInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/.idea/artifacts/MyLoginFilter_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/src/main/java/com/test/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/web/function1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/web/function2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/web/function3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyLoginFilter/web/welcome.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/TestReflect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/configuration/JdbcConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/configuration/SpringConfiguration.java" afterDir="false" />
@@ -88,7 +67,15 @@
       <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/src/main/java/com/test/servlet/TestServletDispatcher.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/web/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/MySpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/.idea/artifacts/MyValidCode_war.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/controller/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/cookie/MyCookieTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/domain/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/mapper/IStudentMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
@@ -111,6 +98,13 @@
       <change beforePath="$PROJECT_DIR$/../MyAOPTestAnnotation/src/main/java/com/test/tx/TransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOPTestAnnotation/src/main/java/com/test/tx/TransactionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyCommitTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCommitTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyCommitTest/target/classes/com/test/service/Impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCommitTest/target/classes/com/test/service/Impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MyCookie_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MyCookie_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCookie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/test/TestMain.java" afterDir="false" />
@@ -158,44 +152,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cookieTest/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-639">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -210,20 +171,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/cookietest/MyCookieTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/cookieTest/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/sessionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/cookieTest/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -234,9 +200,30 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MyCookie" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MyCookie" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MyCookie" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="14" />
+    <option name="x" value="170" />
+    <option name="y" value="132" />
     <option name="width" value="1522" />
     <option name="height" value="839" />
   </component>
@@ -323,6 +310,10 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyCookie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -342,7 +333,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15436894" />
     <property name="project.structure.side.proportion" value="0.43742824" />
   </component>
@@ -450,17 +441,34 @@
       <option name="presentableId" value="Default" />
       <updated>1567270345024</updated>
       <workItem from="1567270348197" duration="2306000" />
-      <workItem from="1567410583644" duration="4061000" />
+      <workItem from="1567410583644" duration="8487000" />
+      <workItem from="1567435094946" duration="3928000" />
+      <workItem from="1567493178974" duration="4367000" />
     </task>
+    <task id="LOCAL-00001" summary="测试 cookie session">
+      <created>1567416934252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567416934252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试 cookie session,网页显示上次访问时间">
+      <created>1567423918637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567423918637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6367000" />
+    <option name="totallyTimeSpent" value="19088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="14" width="1522" height="839" extended-state="0" />
+    <frame x="170" y="132" width="1522" height="839" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25307798" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2599179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,23 +478,23 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49794802" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502052" side_tool="true" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.498632" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32968536" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -497,17 +505,13 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试 cookie session" />
+    <MESSAGE value="测试 cookie session,网页显示上次访问时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试 cookie session,网页显示上次访问时间" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyCookie_war_exploded/WEB-INF/classes/com/test/cookieTest/MyCookieTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyCookie_war_exploded/WEB-INF/classes/com/test/cookieTest/MyCookieTest.class" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -515,34 +519,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServletResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="931">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cookieTest/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="422" column="36" lean-forward="true" selection-start-line="422" selection-start-column="36" selection-end-line="422" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -555,11 +542,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/sessionTest/sessionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="76">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cookieTest/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cookieTest/MyCookieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
