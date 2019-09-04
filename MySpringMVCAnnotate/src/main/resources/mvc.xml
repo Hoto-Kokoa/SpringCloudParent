@@ -12,4 +12,17 @@
 <!--    MVC注解解析器-->
     <mvc:annotation-driven/>
 
+<!--    静态资源处理器-->
+    <mvc:default-servlet-handler/>
+
+<!--    资源映射-->
+<!--    <mvc:resources location="classpath:/static/" mapping="/**" />-->
+
+
+<!--    配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
 </beans>

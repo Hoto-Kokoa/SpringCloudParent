@@ -12,6 +12,5 @@
 </head>
 <body>
 ${msg}
-${string}
 </body>
 </html>
