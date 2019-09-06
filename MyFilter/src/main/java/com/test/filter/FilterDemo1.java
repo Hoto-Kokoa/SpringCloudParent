@@ -10,10 +10,16 @@ public class FilterDemo1 implements Filter {
     }
 
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        HttpServletRequest servletRequest1 = (HttpServletRequest) servletRequest;
-        System.out.println("过滤到转发"+servletRequest1.getRequestURI());
+//        HttpServletRequest servletRequest1 = (HttpServletRequest) servletRequest;
+//        System.out.println("过滤到转发"+servletRequest1.getRequestURI());
+//        filterChain.doFilter(servletRequest,servletResponse);
+
+        System.out.println("过滤前1");
         filterChain.doFilter(servletRequest,servletResponse);
+        System.out.println("过滤后1");
+
     }
+
 
     public void destroy() {
 

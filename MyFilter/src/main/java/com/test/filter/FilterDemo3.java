@@ -10,7 +10,13 @@ public class FilterDemo3 implements Filter {
 
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         System.out.println("过滤前3");
-        filterChain.doFilter(servletRequest,servletResponse);
+
+
+        try {
+            filterChain.doFilter(servletRequest,servletResponse);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         System.out.println("过滤后3");
     }
 
