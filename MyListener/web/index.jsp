@@ -12,8 +12,5 @@
 </head>
 <body>
 hello world
-<% request.setAttribute("msg","aaa");
-    request.setAttribute("msg","bbb");
-%>
 </body>
 </html>
