@@ -13,5 +13,6 @@
 <body>
 ${msg}
 ${string}
+${student}
 </body>
 </html>
