@@ -13,6 +13,12 @@
 </head>
 <body>
 
+${msg}
+
+<c:if test="${!empty msg}">
+    <br><br>
+</c:if>
+
 <a href="/staff/insert">添加</a>
 <table border="1"style="border-color: pink">
     <tr>
