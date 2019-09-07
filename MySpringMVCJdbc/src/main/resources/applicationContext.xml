@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.test"/>
+
+
+    <bean id="studentService" class="com.test.service.Impl.StudentService"/>
+
+    <bean id = "staffService" class="com.test.service.Impl.StaffService">
+        <property name="staffDAO" ref="IStaffDAO"></property>
+    </bean>
+    <bean id="injectionTest" class="com.test.domain.InjectionTest">
+        <property name="id" value="123"/>
+        <property name="name">
+            <array>
+                <value>"芙兰朵露"</value>
+                <value>"蕾米莉亚"</value>
+            </array>
+        </property>
+        <property name="list">
+            <array>
+                <value>保登心爱</value>
+                <value>香风智乃</value>
+            </array>
+        </property>
+        <property name="set">
+            <array>
+                <value>"Rabbit House"</value>
+                <value>"甘兔庵"</value>
+            </array>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="usaki" value="kokoa"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="usaki">qino</prop>
+            </props>
+        </property>
+    </bean>
+
+<!--    配置数据库连接池Druid-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test_01?serverTimezone=Asia/Shanghai&amp;useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+<!--    配置MyBatis-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource">
+        </property>
+    </bean>
+
+<!--    <bean id="sqlSession" factory-bean="sqlSessionFactory" factory-method="openSession"></bean>-->
+
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.test.dao"/>
+    </bean>
+</beans>
