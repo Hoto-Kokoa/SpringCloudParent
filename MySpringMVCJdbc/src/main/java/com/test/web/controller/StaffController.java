@@ -2,6 +2,7 @@ package com.test.web.controller;
 
 
 import com.test.domain.Staff;
+import com.test.domain.Users;
 import com.test.service.Impl.LoginServiceImpl;
 import com.test.service.Impl.StaffService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -70,12 +71,12 @@ public class StaffController {
     }
 
     @RequestMapping("/login")
-    public String login(String username, String password,HttpSession session) {
-        System.out.println(username + password);
-        int i = loginService.login(username, password);
+    public String login(Users user, HttpSession session) {
+        System.out.println(user.getUsername() + user.getPassword());
+        int i = loginService.login(user.getUsername(), user.getPassword());
         System.out.println("i"+ i);
         if (i == 1) {
-            session.setAttribute("username", username);
+           UserContext.setCurrentUser(user);
             return "staff/login/welcome";
         }
         else

@@ -17,4 +17,13 @@
     </bean>
 
 
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+<!--            <mvc:exclude-mapping path="/staff/loginPage"/>-->
+            <mvc:exclude-mapping path="/staff/login*"/>
+            <bean class="com.test.web.interceptor.CheckLoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>
