@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MySpringMVC2nd:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8e83d0d-0e8d-45ef-a4c4-315b288f399a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/MyAOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/dao/IEmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/test/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFileUpload/.idea/artifacts/MyFileUpload_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFileUpload/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFileUpload/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFileUpload/src/main/java/com/test/servlet/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFileUpload/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFileUpload/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFilter/src/main/java/com/test/filter/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFilter/src/main/java/com/test/filter/MyConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/myInterface/IMyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/myInterface/Impl/MyInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/configuration/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/configuration/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/configuration/TransactionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/controller/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/controller/TestAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/controller/TestCrudAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/controller/TestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/domain/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/mapper/IOrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/mapper/IStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/service/IOrderInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/utils/TransactionManager2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/java/com/test/utils/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/resources/com/test/mapper/IOrderInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/resources/com/test/mapper/IStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyReflect/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest/web/WEB-INF/views/student/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest/web/WEB-INF/views/testWEB-INF.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/MyServletTest2nd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/src/main/java/com/test/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/src/main/java/com/test/servlet/TestServletDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServletTest2nd/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpring2nd/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpring2nd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpring2nd/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpring2nd/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpring2nd/MySpring2nd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpring2nd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/src/main/java/cn/wolfcode/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/web/WEB-INF/views/forwardTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/web/WEB-INF/views/testDIV.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVC/web/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MySpringMVC2nd_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpringMVC2nd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/domain/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/domain/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/hello/Intercepeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/json/HandleJsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/web/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringMVCJdbc/src/main/java/com/test/web/interceptor/CheckLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/.idea/artifacts/MyValidCode_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/controller/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/cookie/MyCookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/mapper/IStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/service/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/servlet/TestPaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/servlet/TestRi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/.idea/artifacts/MyValidateCode_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/MyValidateCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/src/main/java/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValidateCode/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RequestAndSessionAndServletContext/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RequestAndSessionAndServletContext/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAOPTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOPTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAOPTestAnnotation/src/main/java/com/test/tx/TransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOPTestAnnotation/src/main/java/com/test/tx/TransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCommitTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCommitTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCommitTest/target/classes/com/test/service/Impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCommitTest/target/classes/com/test/service/Impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCookie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCookie/src/main/java/com/test/sessionTest/sessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCookie/src/main/java/com/test/sessionTest/sessionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFilter/.idea/artifacts/MyFilter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFilter/.idea/artifacts/MyFilter_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFilter/src/main/java/com/test/filter/VocabularyFilterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFilter/src/main/java/com/test/filter/VocabularyFilterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJDKProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJspAndPaging/src/main/java/com/test/servlet/StudentCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJspAndPaging/src/main/java/com/test/servlet/StudentCMD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJspAndPaging/web/WEB-INF/views/student/insertStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJspAndPaging/web/WEB-INF/views/student/insertStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLoginFilter/src/main/java/com/test/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLoginFilter/src/main/java/com/test/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/dao/Impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAOP/src/main/java/com/test/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/java/com/test/tx/TransactionManagerAdvance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProxyTest/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProxyTest/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyServletAnnotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyServletAnnotation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyServletTest/src/main/java/com/test/servlet/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyServletTest/src/main/java/com/test/servlet/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyServletTest/src/main/java/com/test/servlet/TestServletDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyServletTest/src/main/java/com/test/servlet/TestServletDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyServletTest/web/foreach.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyServletTest/web/foreach.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/a12xis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/a12xis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/com/test/Test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid/target/classes/com/test/Test/TestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringAndMyBatisAndDruid2nd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVC/.idea/artifacts/MySpringMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVC/.idea/artifacts/MySpringMVC_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVC/src/main/java/cn/wolfcode/hello/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVC/src/main/java/cn/wolfcode/hello/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVC/src/main/resources/mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVC/src/main/resources/mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVCAnnotate/.idea/artifacts/MySpringMVCAnnotate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/.idea/artifacts/MySpringMVCAnnotate_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVCAnnotate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVCAnnotate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/request/OtherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/java/cn/wolfcode/request/OtherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/resources/mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringMVCAnnotate/src/main/resources/mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/WEB-INF/classes/com/test/servlet/ValidCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/WEB-INF/classes/com/test/servlet/ValidCodeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/WEB-INF/lib/hamcrest-core-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/WEB-INF/lib/junit-4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/out/artifacts/MyValidCode_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/servlet/ValidCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/src/main/java/com/test/servlet/ValidCodeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/target/classes/com/test/servlet/ValidCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/target/classes/com/test/servlet/ValidCodeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValidCode/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValidCode/web/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/pojo/User.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="y" value="67" />
+    <option name="width" value="1512" />
+    <option name="height" value="888" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="MySpringMVC2nd_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="MySpringMVC2nd_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringMVC2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringMVC2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/kokoa" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.36165327" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="MySpringMVC2nd:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MySpringMVC2nd" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63501" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MySpringMVC2nd:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8e83d0d-0e8d-45ef-a4c4-315b288f399a" name="Default Changelist" comment="" />
+      <created>1568021896884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568021896884</updated>
+      <workItem from="1568021901224" duration="3046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3046000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="100" y="110" width="1512" height="888" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32891247" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32891247" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.32891247" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MySpringMVC2nd_war_exploded/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MySpringMVC2nd:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36165327" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|MySpringMVC2nd</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36165327" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
