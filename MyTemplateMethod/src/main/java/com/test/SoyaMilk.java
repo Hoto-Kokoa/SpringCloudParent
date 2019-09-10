@@ -4,7 +4,10 @@ public abstract class SoyaMilk {
 
     final void make(){
         select();
-        addCondiments();
+        if (!isPureSoyaMilk()) {
+            addCondiments();
+        }
+
         soak();
         beat();
     }
@@ -22,6 +25,10 @@ public abstract class SoyaMilk {
 
     void beat() {
         System.out.println("第四步:捣碎");
+    }
+
+    boolean isPureSoyaMilk() {
+        return false;
     }
 
 }

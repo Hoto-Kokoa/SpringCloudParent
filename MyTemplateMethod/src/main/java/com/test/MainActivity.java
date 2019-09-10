@@ -7,5 +7,8 @@ public class MainActivity {
 
         PeanutSoyaMilk peanutSoyaMilk = new PeanutSoyaMilk();
         peanutSoyaMilk.make();
+
+        PureSoyaMilk pureSoyaMilk = new PureSoyaMilk();
+        pureSoyaMilk.make();
     }
 }
