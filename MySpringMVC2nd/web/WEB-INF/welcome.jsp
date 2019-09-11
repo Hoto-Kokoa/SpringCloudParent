@@ -11,6 +11,9 @@
     <title>Title</title>
 </head>
 <body>
+${sessionScope.get("username")}<br>
+${username}<br>
+${msg}<br>
 登陆成功
 </body>
 </html>

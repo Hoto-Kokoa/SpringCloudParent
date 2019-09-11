@@ -12,6 +12,7 @@ import java.util.Map;
 @Setter
 @ToString
 public class User {
+    private Integer id;
     private String username;
     private String password;
 //    private List<String> list;

@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: long
-  Date: 2019/9/9
-  Time: 19:19
+  Date: 2019/9/11
+  Time: 9:37
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,11 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-<form action="controller/loginData">
-    <input type="text" name="username">
-    <input type="password" name="password">
-    <input type="submit">
-</form>
-
+GG!<br>
+${exData.exCode}
+${exData.exInfo}
 </body>
 </html>
