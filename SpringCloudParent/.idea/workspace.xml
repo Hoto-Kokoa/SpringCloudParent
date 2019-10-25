@@ -121,13 +121,6 @@
       <change afterPath="$PROJECT_DIR$/../MyValidateCode/web/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RequestAndSessionAndServletContext/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RequestAndSessionAndServletContext/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/test/commonutils/Utils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EurekaFeign/src/main/java/com/test/feign/controller/CustomController.java" afterDir="false" />
@@ -233,7 +226,6 @@
       <change afterPath="$PROJECT_DIR$/djejUserControllerServiceProject/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/djejUserControllerServiceProject/src/main/resources/com/djej/mapper/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/djejUserControllerServiceProject/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -1212,8 +1204,16 @@
       <workItem from="1571283377981" duration="155000" />
       <workItem from="1571283692706" duration="60087000" />
       <workItem from="1571732721018" duration="4721000" />
-      <workItem from="1571996147588" duration="4947000" />
+      <workItem from="1571996147588" duration="5378000" />
     </task>
+    <task id="LOCAL-00001" summary="父项目">
+      <created>1572010767399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572010767399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1237,7 +1237,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109329000" />
+    <option name="totallyTimeSpent" value="109760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1250,9 +1250,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="245" y="65" width="1566" height="899" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60683763" visible="true" weight="0.29282868" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60683763" visible="true" weight="0.29282868" />
       <window_info id="Structure" order="1" sideWeight="0.3931624" side_tool="true" weight="0.2607099" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1270,7 +1269,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32639793" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32769832" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.37124184" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.37124184" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.3979194" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1289,6 +1288,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="父项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="父项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
